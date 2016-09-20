@@ -13,8 +13,6 @@ from ts_predictor.data_generator import train_test_split
 from ts_predictor.layers.recurrent import ARMA, GARCH
 from ts_predictor.preprocessing.reshape import sliding_window
 
-import matplotlib.pyplot as plt
-import numpy as np
 
 from ts_models import ForecastModel
 
